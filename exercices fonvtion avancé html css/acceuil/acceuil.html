@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page de geolocalisation</title>
+    <link rel="stylesheet" href="acceuil.css">
+</head>
+
+<body>
+  <main>
+    <header class="header">
+        <nav>
+            <ul class="liste de menu" >
+                <li id="menu"> <a href="/acceuil/acceuil.html"> Actualiser la page</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="section">
+        <div>
+            <label for="localisation">localisation</label>
+             <button class="button" onclick="prendslocalisation()">cliquez ici</button>
+        </div>
+    </section>
+
+    <section class="section2">
+        <p id="localisation"></p>
+    </section>
+
+    <section class="section3">
+        <p id="localisation"></p>
+    </section>
+
+    <div id="drag-container">
+        <div id="draggable" draggable="true">Glissez-moi</div>
+        <div id="drop-zone">Déposez ici</div>
+    </div>
+
+    <div id="drag-container1">
+        <button id="start-worker" type="submit" onclick="computeFibonacci()">Démarrer le Web Worker</button>
+        <button id="stop-worker">Arrêter le Web Worker</button>
+           <div id="result"></div>
+    </div>
+
+    <canvas id="myCanvas" width="500" height="500"></canvas>
+
+
+    <footer class="footer">
+        <p>contactez nous</p>
+    </footer>
+  </main>  
+  <script src="/acceuil/acceuil.js"></script>
+</body>
+
+</html>
